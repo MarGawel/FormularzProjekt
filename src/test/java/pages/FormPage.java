@@ -136,7 +136,6 @@ public class FormPage {
         int count = 0;
         for (WebElement waysOfDevelopment : waysOfDevelopmentCheckBoxList){
             String waysString = waysOfDevelopment.getText();
-            System.out.println(waysString);
 
             for (String way : ways){
                 if (waysString.equals(way)){
